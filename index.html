@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>file</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div>
+    <div id="drop-area">
+        Drag and drop file here
+    </div>
+</div>
+
+<div class="file-read">
+    <div class="file-input">
+        <label class="custom-file-upload">
+            <input type="file" onchange="show(this)">
+            Upload a file
+        </label>
+    </div>
+
+    <a href="">Reset</a>
+
+</div>
+
+<div id="table-div">
+    <table id="out"></table>
+</div>
+
+<script src="https://unpkg.com/lodash@4.17.21/lodash.min.js"></script>
+
+<script src="lod.js"></script>
+</body>
+</html>
